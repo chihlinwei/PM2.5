@@ -1,0 +1,17 @@
+Package: PM2.5
+Type: Package
+Title: Read pm2.5 data
+Version: 0.1.0
+Author: Chih-Lin Wei
+Maintainer: Chih-Lin Wei <chihlinwei@gmail.com>
+Description: Read pm2.5 log files in Taiwan
+License: GPL (>= 2)
+LazyData: TRUE
+Depends:
+    R (>= 3.3.2),
+    plyr,
+    RCurl
+Imports:
+    plyr,
+    RCurl
+RoxygenNote: 5.0.1
